@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Polit Programming"
 author = "Polit Programming"
@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   subtitle = "UCPH"
   brand = "Menu"
   googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  #disqus = "Your Disqus shortname"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006"
@@ -29,18 +29,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 1
     identifier = "home"
     url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
+    
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 2
     identifier = "about"
     url = "/about/"
+    
+  [[menu.main]]
+    name = "Tutorials"
+    pre = "<i class='fa fa-graduation-cap'></i>"
+    weight = 3
+    identifier = "tutorials"
+    url = "/tutorials/"
+    
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 4
+    identifier = "post"
+    url = "/post/"
 
 #[social]
   # Link your social networking accouns to the side menu
