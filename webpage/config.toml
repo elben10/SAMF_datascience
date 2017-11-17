@@ -1,7 +1,6 @@
 baseurl = "https://www.example.com/"
 languageCode = "en-us"
 title = "Polit Programming"
-theme = "blackburn"
 author = "Polit Programming"
 copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
@@ -43,7 +42,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     identifier = "about"
     url = "/about/"
 
-[social]
+#[social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
   # twitter = "*"
